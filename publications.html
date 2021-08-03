@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html>
 
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="hydro3D : hydro3D project website">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>hydro3D</title>
+    
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <hgroup>
+          <center>
+           <h1>
+            <a href="https://github.com/hydro3Dproject">
+              <img src="images/hydro3d_v2.png" alt="hydro3D" height="180" width="480">
+            </a>
+           </h1>
+          </center>
+         </hgroup>
+           <nav>
+            <center>
+             <ul>
+             <a href="https://github.com/hydro3Dproject/hydro3Dproject.github.io/wiki/How-to-get-hydro3D" style="color:white; font-weight:bold">get hydro3D</b></a>
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+             <a href="https://github.com/hydro3Dproject/hydro3Dproject.github.io/wiki" style="color:white; font-weight:bold">documentation</a>
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+             <a href="https://github.com/hydro3Dproject/hydro3Dproject.github.io/wiki/Flow-Gallery" style="color:white; font-weight:bold">flow gallery</a>
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+             <a href="https://github.com/hydro3Dproject/hydro3Dproject.github.io/wiki/Publications" style="color:white; font-weight:bold">publications</a>
+             </ul>
+            </center>
+           </nav>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner"> 
+        <h3>
+<a id="welcome-to-the-hydro3d-project" class="anchor" href="#welcome-to-the-hydro3d-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to the hydro3D project</h3>
+<img src="images/Q.jpg" alt="" height="200" width="250" align="right"/>
+<!-- <img class="flowright" src="images/Q.jpg" alt="" height="100" width="250" position="right"/> -->
+<p>hydro3D is a finite difference Navier Stokes solver that permits accurate and efficient Large Eddy Simulation (LES) of turbulent flows. It has been developed by Prof. Thorsten Stoesser and co-workers at Cardiff University, UK, primarily for use in the simulation of environmental fluid dynamics. If you are interested in using and/or developing the code, or if you would like to discuss opportunities for collaboration, please send a mail to mcsherryr@cardiff.ac.uk. To get a feel for the code's present range of capabilities please take a look at our <a href="https://github.com/hydro3Dproject/hydro3Dproject.github.io/wiki/Flow-Gallery" style="font-weight:bold">flow gallery</b></a> and <a href="https://github.com/hydro3Dproject/hydro3Dproject.github.io/wiki/Publications" style="font-weight:bold">publications</b></a>.</p>
+
+<h3>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h3>
+
+<ul>
+  <li>Sub-grid Scale (SGS) turbulent stress modelling using Smagorinsky or WALE methods.</li>
+  <li>Choice of spatial discretisation schemes including 4th order central differences.</li>
+  <li>Choice of temporal solution schemes including 5th order ENO/WENO.</li>
+  <li>Efficient computation of flows in and over complex geometries using the Immersed Boundary Method.</li>
+  <li>Efficient multigrid solver with MPI and OpenMP parallelisation.</li>
+  <li>Local mesh refinement for increased efficiency and accuracy.</li>
+  <li>Bubble column simulation using Immersed Boundary particle tracking.</li>
+</ul>
+
+<h3>
+<a id="ongoing-development" class="anchor" href="#ongoing-development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ongoing development</h3>
+
+<ul>
+  <li>1-equation SGS modelling.</li>
+  <li>Free surface simulation in turbulent flows using the Level Set Method.</li>
+  <li>Sediment and scalar transport.</li>
+</ul>
+
+
+    
+
+  </body>
+</html>
